@@ -1,6 +1,6 @@
 # BigData-Project
 
-Per far funzionare correttamente il processo di training, eseguire i seguenti passi:
+Per far funzionare correttamente il processo di training/evaluation, eseguire i seguenti passi:
 
 1. Scaricare il progetto e da shell posizionarsi dentro la cartella BigData-Project
 2. Per generare i tf_record delle immagini del training set, digitare il seguente comando da shell:
