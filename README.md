@@ -10,6 +10,6 @@ Per far funzionare correttamente il processo di training, eseguire i seguenti pa
 3. Aprire il notebook **progetto_bid.ipynb** tramite Jupyter (il notebook deve contenere tutte i file nella cartella BigData-Project)
 4. Eseguire le prime due celle per importare le librerie necessarie e preparare le variabili per il training
 5. Eseguire la 3a cella che lancerà il processo di training (sono 200000 iterazioni, noi ci siamo fermati a circa 81000)
-6. Generati i checkpoint nella cartella /training, eseguire la 4a cella inserendo al posto di 'checkpoint-number' il numero dell'ultimo checkpoint presente nella cartella /training per esportare il nuovo grafo generato:
+6. Generati i checkpoint nella cartella /training, eseguire la 4a cella inserendo al posto di 'checkpoint-number' il numero dell'ultimo checkpoint presente nella cartella /training per esportare il nuovo grafo:
 
    !python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/ssd_mobilenet_v2_coco.config --                 trained_checkpoint_prefix training/model.ckpt-<checkpoint-number> --output_directory trained-inference-graphs/output_inference_graph
