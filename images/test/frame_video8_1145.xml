@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>frame_video8_1145.jpg</filename>
+	<path>C:\TensorFlow\workspace\training_demo\images\frame_video8_1145.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>145</xmin>
+			<ymin>164</ymin>
+			<xmax>292</xmax>
+			<ymax>245</ymax>
+		</bndbox>
+	</object>
+</annotation>

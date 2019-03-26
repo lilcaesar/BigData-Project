@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>frame_graupner_2680.jpg</filename>
+	<path>C:\TensorFlow\workspace\training_demo\images\frame_graupner_2680.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>610</xmin>
+			<ymin>290</ymin>
+			<xmax>696</xmax>
+			<ymax>373</ymax>
+		</bndbox>
+	</object>
+</annotation>
