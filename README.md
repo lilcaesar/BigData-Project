@@ -12,4 +12,4 @@ Seguire i seguenti step prima di lanciare il notebook da Jupyter:
 5. Eseguire la 3a cella che lancerà il processo di training (sono 200000 iterazioni, noi ci siamo fermati a circa 81000)
 6. Generati i checkpoint nella cartella /training, eseguire la 4a cella inserendo al posto di <checkpoint-number> il numero dell'ultimo checkpoint presente nella cartella /training:
 
-!python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/ssd_mobilenet_v2_coco.config --trained_checkpoint_prefix training/model.ckpt-<checkpoint-number> --output_directory trained-inference-graphs/output_inference_graph
+   !python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/ssd_mobilenet_v2_coco.config --                 trained_checkpoint_prefix training/model.ckpt-<checkpoint-number> --output_directory trained-inference-graphs/output_inference_graph
