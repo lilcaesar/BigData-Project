@@ -3,7 +3,7 @@
 Per far funzionare correttamente il processo di training, eseguire i seguenti passi:
 
 1. Scaricare il progetto e da shell posizionarsi dentro la cartella BigData-Project
-2. Per generare i tf_record delle immagini del training set, digitare il seguente comando:
+2. Per generare i tf_record delle immagini del training set, digitare il seguente comando da shell:
    
    python generate_tfrecord.py --label=gate --csv_input=<PATH_TO_ANNOTATIONS_FOLDER>\train_labels.csv --output_path=<PATH_TO_ANNOTATIONS_FOLDER>\train.record --img_path=<PATH_TO_IMAGES_FOLDER>\train
 
