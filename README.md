@@ -1,5 +1,20 @@
 # BigData-Project
 
+Specifiche piattaforma funzionante
+- OS: Windows 10 Home
+- Tensorflow: 1.12.0
+- Cuda: 9.0
+- cuDNN: 7.4.2
+- Python: 3.6.5 :: Anaconda
+
+oppure
+
+- OS: Ubuntu 16.04
+- Tensorflow: 1.12.0
+- Cuda: 9.0
+- cuDNN: 7.4.2
+- Python: 3.5
+
 Per far funzionare correttamente il processo di training/evaluation, eseguire i seguenti passi:
 
 1. Scaricare il progetto e da shell posizionarsi dentro la cartella BigData-Project
