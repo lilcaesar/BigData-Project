@@ -22,7 +22,8 @@ Per far funzionare correttamente il processo di training/evaluation, eseguire i 
    
    python generate_tfrecord.py --label=gate --csv_input=<PATH_TO_ANNOTATIONS_FOLDER>\train_labels.csv --output_path=<PATH_TO_ANNOTATIONS_FOLDER>\train.record --img_path=<PATH_TO_IMAGES_FOLDER>\train
 
-3. Aprire il notebook **progetto_bid.ipynb** tramite Jupyter Notebook eseguendo il comando **jupyter notebook progetto_bid.ipynb**
+3. Aprire il notebook **progetto_bid.ipynb** tramite Jupyter Notebook eseguendo il seguente comando da shell
+   - **jupyter notebook progetto_bid.ipynb**
 4. Eseguire le prime due celle per installare ed importare le librerie necessarie per il training
 5. Eseguire la 3a cella per preparare le variabili per il training
 6. Eseguire la 4a cella che lancerà il processo di training (sono 200000 iterazioni, noi ci siamo fermati a 81646)
