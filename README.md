@@ -14,3 +14,6 @@ Per far funzionare correttamente il processo di training, eseguire i seguenti pa
 7. Generati i checkpoint nella cartella /training, eseguire la 5a cella inserendo al posto di 'checkpoint-number' il numero dell'ultimo checkpoint presente nella cartella /training per esportare il nuovo grafo:
 
    !python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/ssd_mobilenet_v2_coco.config --                 trained_checkpoint_prefix training/model.ckpt-<checkpoint-number> --output_directory trained-inference-graphs/output_inference_graph
+8. Per valutare il modello, eseguire la 6a cella
+   
+   
