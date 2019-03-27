@@ -1,6 +1,6 @@
 # BigData-Project
 
-Specifiche piattaforme funzionanti
+Dipendenze progetto
 - OS: Windows 10 Home
 - Tensorflow: 1.12.0
 - Cuda: 9.0
